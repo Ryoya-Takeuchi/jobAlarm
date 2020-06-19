@@ -10,23 +10,39 @@ export default createBottomTabNavigator({
 	Home: {
 		screen: Home,
 		navigationOptions: {
-		  title: 'ホーム',
-		  tabBarIcon : <LeftTab></LeftTab>,
+			title: 'ホーム',
+			tabBarIcon :({focused}) => (<LeftTab focused={focused}></LeftTab>),
+			
 		},
 	},
 	AddJob: {
 		screen: AddJob,
 		navigationOptions: {
-		  title: 'ジョブ追加',
-		  tabBarIcon : <LeftTab></LeftTab>
-
+			title: 'ジョブ追加',
+			tabBarIcon :({focused}) => (<LeftTab focused={focused}></LeftTab>),
 		},
 	},
 	Setting: {
 		screen: Setting,
 		navigationOptions: {
 			title: '設定',
-			tabBarIcon : <LeftTab></LeftTab>
+			tabBarIcon :({focused}) => (<LeftTab focused={focused}></LeftTab>),
 		},
 	},
+},{
+	tabBarOptions : {
+		style : {
+			backgroundColor : '#86DEC6',
+			borderTopColor : '#86DEC6',
+		},
+		activeTintColor: '#5a73c9',
+		inactiveTintColor: '#ffffff',
+		tabStyle: {
+			width: 'auto'
+		},
+		labelStyle: {
+			fontSize: 15,
+			fontWeight: 'bold',
+		},
+	}
 });

@@ -56,7 +56,6 @@ export default function AddJob() {
 				backCircleTop = {3}
 				backCircleHorizontal = {3}/>
 			<Text style={[styles.title_test,{marginTop : height/3}]}> Add </Text>
-			<Text style={[styles.footer_test,{marginBottom : 50}]}>今日も1日スタート</Text>
 		</SafeAreaView>
 	);
 }
