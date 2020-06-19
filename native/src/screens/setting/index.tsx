@@ -55,7 +55,7 @@ export default function Setting() {
 				heightRate = {2}
 				backCircleTop = {3}
 				backCircleHorizontal = {3}/>
-			<Text style={[styles.title_test,{marginTop : height/3}]}> Home </Text>
+			<Text style={[styles.title_test,{marginTop : height/3}]}> setting </Text>
 		</SafeAreaView>
 	);
 }

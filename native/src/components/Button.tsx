@@ -3,9 +3,6 @@ import {View, StyleSheet, Dimensions} from 'react-native';
 
 export default function Button(props) {
 	const {focused} = props;
-	React.useEffect(() => {
-		console.log("focused",focused);
-	},[focused])
 	return (
 		<View style={styles.base}>
 			<View style={[focused ? styles.button_active : styles.button_sub]}></View>
@@ -21,7 +18,7 @@ const styles = StyleSheet.create({
 	button_active : {
 		width : 100,
 		height : 100,
-		backgroundColor : "#ffffff",
+		backgroundColor : "#5a73c9",
 		borderRadius : 50,
 		zIndex : 1,
 		marginTop : 50,
@@ -30,7 +27,7 @@ const styles = StyleSheet.create({
 	button_sub : {
 		width : 100,
 		height : 100,
-		backgroundColor : "#5a73c9",
+		backgroundColor : "#ffffff",
 		borderRadius : 50,
 		zIndex : 1,
 		marginTop : 50,
