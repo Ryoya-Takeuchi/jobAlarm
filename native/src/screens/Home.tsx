@@ -3,11 +3,13 @@ import {View,SafeAreaView,StyleSheet, Dimensions} from 'react-native';
 import {Store} from '../contexts/app';
 import Circle from '../components/Circle';
 import { Text } from 'native-base';
+import Calendar from '../components/Calendar';
+// import Calendar from '../components/calendar';
 
+const {width , height} = Dimensions.get("window")
 
 export default function Home() {
 	const {name , setUser} = React.useContext(Store);
-	const {width , height} = Dimensions.get("window")
 
 	React.useEffect(()=> {
 		setUser('コップ')
@@ -55,7 +57,11 @@ export default function Home() {
 				heightRate = {2}
 				backCircleTop = {3}
 				backCircleHorizontal = {3}/>
-			<Text style={[styles.title_test,{marginTop : height/3}]}> Home </Text>
+			{/* <View style={styles.calendar_base_area}> */}
+				<View style={styles.calendar_area}>
+					<Calendar/>
+				</View>
+			{/* </View> */}
 		</SafeAreaView>
 	);
 }
@@ -63,7 +69,7 @@ export default function Home() {
 const styles = StyleSheet.create({
 	container : {
 		flex : 1,
-		justifyContent : "space-between",
+		justifyContent : "center",
 		alignItems : "center",
 		backgroundColor : '#86DEC6',
 		position : "relative"
@@ -77,5 +83,21 @@ const styles = StyleSheet.create({
 		color : '#ffffff',
 		fontSize : 30,
 		fontWeight : "600",
-	}
+	},
+	calendar_base_area : {
+		position : "relative",
+		width : width/1.05,
+		height : height/1.5
+	},
+	// calendar_area : {
+	// 	position : "absolute",
+	// 	width : width/1.2,
+	// 	height : width/1.1,
+	// 	top : 10,
+	// 	left : 10,
+	// 	// borderTopRightRadius : 100,
+	// 	borderTopEndRadius : 100,
+	// 	borderTopStartRadius : 100,
+	// }
+	
 })

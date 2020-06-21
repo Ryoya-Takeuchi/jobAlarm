@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@react-navigation/native": "^5.5.1",
+    "@types/react-native-calendars": "^1.20.8",
     "native-base": "^2.13.12",
     "react": "16.11.0",
     "react-native": "0.62.2",
+    "react-native-calendars": "^1.299.0",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-reanimated": "^1.9.0",
     "react-native-screens": "^2.8.0",
