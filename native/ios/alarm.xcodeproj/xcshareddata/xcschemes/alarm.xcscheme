@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "alarm.app"
+               BuildableName = "&#x304a;&#x4ed5;&#x4e8b;&#x306f;&#x3057;&#x3099;&#x3081;&#x307e;&#x3057;&#x3087;.app"
                BlueprintName = "alarm"
                ReferencedContainer = "container:alarm.xcodeproj">
             </BuildableReference>
@@ -55,7 +55,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "alarm.app"
+            BuildableName = "&#x304a;&#x4ed5;&#x4e8b;&#x306f;&#x3057;&#x3099;&#x3081;&#x307e;&#x3057;&#x3087;.app"
             BlueprintName = "alarm"
             ReferencedContainer = "container:alarm.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "alarm.app"
+            BuildableName = "&#x304a;&#x4ed5;&#x4e8b;&#x306f;&#x3057;&#x3099;&#x3081;&#x307e;&#x3057;&#x3087;.app"
             BlueprintName = "alarm"
             ReferencedContainer = "container:alarm.xcodeproj">
          </BuildableReference>

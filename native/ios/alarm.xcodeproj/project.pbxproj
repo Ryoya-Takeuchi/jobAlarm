@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* alarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* alarmTests.m */; };
+		077C5F2993554ABE920097AC /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225677A119244CF891074726 /* AntDesign.ttf */; };
+		0AF000CE9B2A43B6B1D04323 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB7E525A5CDA47C1A26C0AD0 /* Entypo.ttf */; };
+		10AE16BB3BB74D9FAC882C2A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58302BD69C7C4DD7A5DBFA8F /* EvilIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F530160F60A4B4F873BFCEF /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D372A933262045FCAA690C72 /* Feather.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* alarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* alarmTests.m */; };
+		3994A6DA6D244735AC229818 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC151FE3E3A4563BCDB2C3B /* FontAwesome5_Brands.ttf */; };
+		3D5A7D8086684B41B0E07885 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A638EF8F21F346B2BEC30F8A /* MaterialCommunityIcons.ttf */; };
+		4F910DE5ED04477788D30B64 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E015B2EBBD314392A09A609F /* MaterialIcons.ttf */; };
+		601B1EBD70CE4ECBA05E1D2C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DFC9CB3D78046DA9358F4B8 /* Zocial.ttf */; };
+		99C67CB2A76A48AE82D49075 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACBA060C823B460C87E60981 /* SimpleLineIcons.ttf */; };
+		A5D53001CA154F9D928B6B98 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15390795B7441CFB7F0A424 /* Fontisto.ttf */; };
+		A5DFA43A738C4373BFD0BEC0 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8742F441DC467BAD3C9A8D /* Octicons.ttf */; };
+		B79AA54F1DD64B4B9C7D4FB9 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5C923F227C141878EC64657 /* Ionicons.ttf */; };
+		BCFABF1324D14C9DABEAC21C /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 902356264CF14BE19F0296C6 /* FontAwesome5_Solid.ttf */; };
+		BE6003C040D34E7C982E9816 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE5F2770E63B460296359FEA /* FontAwesome5_Regular.ttf */; };
+		C40DE0F4BAC14D24BB8696A7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDFECDF16C0454C8FCC5362 /* Foundation.ttf */; };
 		C6A150F52C4632CA7CFFEEAF /* libPods-alarm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70C2A6F8101C6605C87F3B /* libPods-alarm.a */; };
 		CC606A004677A4BADB0B9881 /* libPods-alarm-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4151F667804D8E9EF75949B0 /* libPods-alarm-tvOS.a */; };
 		CE1D6C72057D96989CB2EA50 /* libPods-alarm-alarmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2F728D0DC97126DAD33FC8 /* libPods-alarm-alarmTests.a */; };
+		D014653C65644B0493C9DBC7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BADB57BC6E694180A5B0AD31 /* FontAwesome.ttf */; };
 		DEC1E713AF949CCB59D1E40F /* libPods-alarm-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F0D4F13CC77766A70305BE /* libPods-alarm-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +61,8 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* alarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alarmTests.m; sourceTree = "<group>"; };
 		0A9035B7F44F5D878BFBB157 /* Pods-alarm-alarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm-alarmTests.release.xcconfig"; path = "Target Support Files/Pods-alarm-alarmTests/Pods-alarm-alarmTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFC9CB3D78046DA9358F4B8 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* お仕事はじめましょ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "お仕事はじめましょ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = alarm/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = alarm/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -53,16 +70,31 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = alarm/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = alarm/main.m; sourceTree = "<group>"; };
 		1618F3F08B95B0FBA3F8FB2C /* Pods-alarm-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm-tvOS.release.xcconfig"; path = "Target Support Files/Pods-alarm-tvOS/Pods-alarm-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1CC151FE3E3A4563BCDB2C3B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		225677A119244CF891074726 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		28F4EF7A1A756B8CCB978141 /* Pods-alarm-alarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm-alarmTests.debug.xcconfig"; path = "Target Support Files/Pods-alarm-alarmTests/Pods-alarm-alarmTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* alarm-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alarm-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* alarm-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alarm-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F0D4F13CC77766A70305BE /* libPods-alarm-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alarm-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2F728D0DC97126DAD33FC8 /* libPods-alarm-alarmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alarm-alarmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4151F667804D8E9EF75949B0 /* libPods-alarm-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alarm-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58302BD69C7C4DD7A5DBFA8F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		78F1E6C87806EA6E6CB798A8 /* Pods-alarm-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-alarm-tvOS/Pods-alarm-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8E8742F441DC467BAD3C9A8D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		902356264CF14BE19F0296C6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		A5C923F227C141878EC64657 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		A638EF8F21F346B2BEC30F8A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		ACBA060C823B460C87E60981 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		BA6092F40DBAD73848E29729 /* Pods-alarm-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-alarm-tvOSTests/Pods-alarm-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BADB57BC6E694180A5B0AD31 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		BE5F2770E63B460296359FEA /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		BEDFECDF16C0454C8FCC5362 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		C15390795B7441CFB7F0A424 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		CB7E525A5CDA47C1A26C0AD0 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		D372A933262045FCAA690C72 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		D41D37BEDC9D3952F0EF0F37 /* Pods-alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm.release.xcconfig"; path = "Target Support Files/Pods-alarm/Pods-alarm.release.xcconfig"; sourceTree = "<group>"; };
 		DBA5B9A6A168FD305EEE7C35 /* Pods-alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm.debug.xcconfig"; path = "Target Support Files/Pods-alarm/Pods-alarm.debug.xcconfig"; sourceTree = "<group>"; };
+		E015B2EBBD314392A09A609F /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F218A543D64A960DF601C27A /* Pods-alarm-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alarm-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-alarm-tvOSTests/Pods-alarm-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +181,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		34B68D6EBB9149AFAB34589C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				225677A119244CF891074726 /* AntDesign.ttf */,
+				CB7E525A5CDA47C1A26C0AD0 /* Entypo.ttf */,
+				58302BD69C7C4DD7A5DBFA8F /* EvilIcons.ttf */,
+				D372A933262045FCAA690C72 /* Feather.ttf */,
+				BADB57BC6E694180A5B0AD31 /* FontAwesome.ttf */,
+				1CC151FE3E3A4563BCDB2C3B /* FontAwesome5_Brands.ttf */,
+				BE5F2770E63B460296359FEA /* FontAwesome5_Regular.ttf */,
+				902356264CF14BE19F0296C6 /* FontAwesome5_Solid.ttf */,
+				C15390795B7441CFB7F0A424 /* Fontisto.ttf */,
+				BEDFECDF16C0454C8FCC5362 /* Foundation.ttf */,
+				A5C923F227C141878EC64657 /* Ionicons.ttf */,
+				A638EF8F21F346B2BEC30F8A /* MaterialCommunityIcons.ttf */,
+				E015B2EBBD314392A09A609F /* MaterialIcons.ttf */,
+				8E8742F441DC467BAD3C9A8D /* Octicons.ttf */,
+				ACBA060C823B460C87E60981 /* SimpleLineIcons.ttf */,
+				0DFC9CB3D78046DA9358F4B8 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +220,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				AF33447ABF06C379A3812979 /* Pods */,
+				34B68D6EBB9149AFAB34589C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,7 +230,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* alarm.app */,
+				13B07F961A680F5B00A75B9A /* お仕事はじめましょ.app */,
 				00E356EE1AD99517003FC87E /* alarmTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* alarm-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* alarm-tvOSTests.xctest */,
@@ -194,7 +250,6 @@
 				F218A543D64A960DF601C27A /* Pods-alarm-tvOSTests.debug.xcconfig */,
 				BA6092F40DBAD73848E29729 /* Pods-alarm-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -237,7 +292,7 @@
 			);
 			name = alarm;
 			productName = alarm;
-			productReference = 13B07F961A680F5B00A75B9A /* alarm.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* お仕事はじめましょ.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* alarm-tvOS */ = {
@@ -292,6 +347,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 8RA7M2BCV4;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -340,6 +396,22 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				077C5F2993554ABE920097AC /* AntDesign.ttf in Resources */,
+				0AF000CE9B2A43B6B1D04323 /* Entypo.ttf in Resources */,
+				10AE16BB3BB74D9FAC882C2A /* EvilIcons.ttf in Resources */,
+				1F530160F60A4B4F873BFCEF /* Feather.ttf in Resources */,
+				D014653C65644B0493C9DBC7 /* FontAwesome.ttf in Resources */,
+				3994A6DA6D244735AC229818 /* FontAwesome5_Brands.ttf in Resources */,
+				BE6003C040D34E7C982E9816 /* FontAwesome5_Regular.ttf in Resources */,
+				BCFABF1324D14C9DABEAC21C /* FontAwesome5_Solid.ttf in Resources */,
+				A5D53001CA154F9D928B6B98 /* Fontisto.ttf in Resources */,
+				C40DE0F4BAC14D24BB8696A7 /* Foundation.ttf in Resources */,
+				B79AA54F1DD64B4B9C7D4FB9 /* Ionicons.ttf in Resources */,
+				3D5A7D8086684B41B0E07885 /* MaterialCommunityIcons.ttf in Resources */,
+				4F910DE5ED04477788D30B64 /* MaterialIcons.ttf in Resources */,
+				A5DFA43A738C4373BFD0BEC0 /* Octicons.ttf in Resources */,
+				99C67CB2A76A48AE82D49075 /* SimpleLineIcons.ttf in Resources */,
+				601B1EBD70CE4ECBA05E1D2C /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +702,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7M2BCV4;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -642,8 +715,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = alarm;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.alarm-test";
+				PRODUCT_NAME = "お仕事はじめましょ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -657,6 +730,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7M2BCV4;
 				INFOPLIST_FILE = alarm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -664,8 +738,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = alarm;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.alarm-test";
+				PRODUCT_NAME = "お仕事はじめましょ";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

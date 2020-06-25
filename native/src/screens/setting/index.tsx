@@ -3,15 +3,20 @@ import {View,SafeAreaView,StyleSheet, Dimensions} from 'react-native';
 import {Store} from '../../contexts/app';
 import Circle from '../../components/Circle';
 import { Text } from 'native-base';
-
+// import { SketchPicker } from 'react-native-color';
 
 export default function Setting() {
 	const {name , setUser} = React.useContext(Store);
 	const {width , height} = Dimensions.get("window")
+	// const {hue,sat,val} = {0,0,0};
 
 	React.useEffect(()=> {
 		setUser('コップ')
 	},[])
+
+	const onHuePickerChange = (e) => {
+		console.log(e)
+	}
 
 	return (
 		<SafeAreaView style={styles.container}>
@@ -55,7 +60,8 @@ export default function Setting() {
 				heightRate = {2}
 				backCircleTop = {3}
 				backCircleHorizontal = {3}/>
-			<Text style={[styles.title_test,{marginTop : height/3}]}> setting </Text>
+			{/* <Text style={[styles.title_test,{marginTop : height/3}]}> setting </Text> */}
+			{/* <SketchPicker/> */}
 		</SafeAreaView>
 	);
 }

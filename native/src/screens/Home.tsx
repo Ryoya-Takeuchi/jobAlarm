@@ -58,7 +58,7 @@ export default function Home() {
 				backCircleTop = {3}
 				backCircleHorizontal = {3}/>
 			{/* <View style={styles.calendar_base_area}> */}
-				<View style={styles.calendar_area}>
+				<View style={styles.calendar_base_area}>
 					<Calendar/>
 				</View>
 			{/* </View> */}
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
 	},
 	calendar_base_area : {
 		position : "relative",
-		width : width/1.05,
+		width : width/1.2,
 		height : height/1.5
 	},
 	// calendar_area : {
