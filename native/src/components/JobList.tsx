@@ -13,16 +13,16 @@ export default function Button(props : Props) {
 	const {job, time, week, color} = props;
 	return (
 		<View style={styles.base}>
-			<View style={{flexDirection : "column" , flex : 1 , marginBottom : 10 , borderRadius : 10}}>
-				<View><Text>{`・${job}`}</Text></View>
-				<View><Text>{`・${time}`}</Text></View>
-				<View><Text>{`・${week}`}</Text></View>
+			<View style={{flexDirection : "column" , flex : 1 }}>
+				<Text style={{flex : 1, margin : 3 , }}>{`・${job}`}</Text>
+				<Text style={{flex : 1, margin : 3 , }}>{`・${time}`}</Text>
+				<Text style={{flex : 1, margin : 3 , }}>{`・${week}`}</Text>
 			</View>
 			{/* <View style={{flexDirection : "column" , flex : 1 , marginBottom : 10 , backgroundColor : '#ff0000', borderRadius : 10,padding :10,borderWidth : 2, borderColor : '#c5c5c5'}}>
 				<Button style={{backgroundColor : color , width : 20, height : 20 , borderRadius : 20}}></Button>
 			</View> */}
 			<View style={{flexDirection : "column" , flex : 1, justifyContent : "center" , alignItems : "center"}}>
-				<View style={{backgroundColor : color, width : 50 , height : 50, borderRadius : 50}}/>
+				<View style={{backgroundColor : color, width : 70 , height : 70, borderRadius : 50}}/>
 			</View>
 		</View>
 	)
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
 		flexDirection : "row",
 		flex : 1,
 		backgroundColor : '#ffffff',
-		borderRadius : 5,
+		borderRadius : 30,
 		borderWidth : 2,
 		borderColor : '#c5c5c5',
 		marginBottom : 10,

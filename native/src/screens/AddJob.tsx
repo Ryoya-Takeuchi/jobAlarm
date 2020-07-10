@@ -77,7 +77,6 @@ export default function AddJob() {
 					<FlatList
 						data={data}
 						renderItem={({ item }) => <JobList job={item.job} time={item.time} week={item.week} color={item.color} />}
-						keyExtractor={item => item.id}
 					/>
 					</View>
 					<View style={styles.job_add_button_area}>
